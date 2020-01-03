@@ -3,18 +3,18 @@ using System.Linq;
 using System.Collections.Generic;
 namespace SalesWebMvc.Models
 {
-    public class Department
+    public class Departments
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
-        public Department()
+        public Departments()
         {
 
         }
 
-        public Department(int id, string name)
+        public Departments(int id, string name)
         {
             Id = id;
             Name = name;

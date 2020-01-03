@@ -25,10 +25,10 @@ namespace SalesWebMvc.Data
                 return; // O banco de dados já foi populacionado
             }
 
-            Department d1 = new Department(1, "Computer");
-            Department d2 = new Department(2, "Eletronics");
-            Department d3 = new Department(3, "Fashion");
-            Department d4 = new Department(4, "Books");
+            Departments d1 = new Departments(1, "Computer");
+            Departments d2 = new Departments(2, "Eletronics");
+            Departments d3 = new Departments(3, "Fashion");
+            Departments d4 = new Departments(4, "Books");
 
             Seller s1 = new Seller(1, "Carlos Domingues", "crdpc@yahoo.com.br", new DateTime(1970, 9, 8), 1300.0, d1);
             Seller s2 = new Seller(2, "Jacqueline Domingues", "Jacuqueline@yahoo.com.br", new DateTime(1970, 9, 8), 1300.0, d3);
